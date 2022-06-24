@@ -1,7 +1,38 @@
-.cont{
-background-color: darkgrey;
-}
+.Principal{
+    margin-left: 100px;
+    background-color: #F5F5DC;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+ }
 
-.pai{
-    background-color: antiquewhite;
-}
+ .cont{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+ }
+
+ .Botao{
+     background-color: #824394;
+     font-family: Helvetica;
+     text-align: center;
+     padding: 6px;
+     align-items: center;
+     border: none; 
+ }
+
+ .titulo{
+     font-family: Helvetica;
+     text-align: center;
+ }
+
+ .subtitulo{
+     font-family: Helvetica;
+     text-align: center;
+ }
+
+ .descricao1, .descricao2{
+     font-family: Helvetica;
+     text-align: center;
+ }
