@@ -1,13 +1,17 @@
 import "./Container.css";
 
-function Container({title, subtitle, descricao}){
+function Container({title, subtitle, descricao1, descricao2, texto}){
 	
 	return( 
-		<div className="cont">
-            <p className="cont1">{title}</p>
-			<p className="cont2">{subtitle}</p>
-            <p className="cont3">{descricao}</p>
-		</div>
+		<div className='Principal'>
+		<h1 className='titulo'>{title}</h1>
+		 <h3 className='subtitulo'>{subtitle}</h3>
+		 <p className='descricao1'>{descricao1}</p>
+		 <p className='descricao2'>{descricao2}</p>
+		 <button className="Botao">
+			 {texto}
+		 </button>
+		 </div>
 	);
 }
 
