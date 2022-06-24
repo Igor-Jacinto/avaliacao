@@ -4,8 +4,8 @@ function Titulo({ti, subti}){
 	
 	return( 
 		<div className="titulos">
-            <p className="titulo">{ti}</p>
-			<p className="subtitulo">{subti}</p>
+            <h1 className="titulo">{ti}</h1>
+			<h5 className="subtitulo">{subti}</h5>
 		</div>
 	);
 }
